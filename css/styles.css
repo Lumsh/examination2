@@ -359,6 +359,45 @@ h2, p {
 
 
 
+.maingrid__3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 200px;
+    column-gap: 5%;
+
+
+}
+
+
+
+.maingrid__plants3--cucumber{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40px;
+    column-gap: 5%;
+    
+    
+    
+    
+          
+}
+
+
+
+
+
+.maingrid__plants4--cucumber{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40px;
+    column-gap: 5%;
+    
+          
+}
+
+
+
+
 
 
    
