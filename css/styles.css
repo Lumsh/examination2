@@ -251,9 +251,12 @@ h2, p {
     
 }
 .img__size--garbagecan{
-    width: 10%;
-    height: 50%;
-    margin-top: 5%;
+    position: relative;
+    top: 20%;
+    
+    width: auto;
+    height: 40%;
+   
 }
 .container__p--color{
     color: black;
@@ -394,6 +397,190 @@ h2, p {
     
           
 }
+
+
+
+
+.footergrid__main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+    justify-items: center;
+    row-gap: 10px;
+
+
+
+}
+
+.footergrid__rectangle{
+    grid-column: 1 / 3;
+    grid-row: 1;
+    width: 100px;
+    height: 50px;
+    background-color: #0a846e;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footergrid__circle{
+    grid-column: 1 / 3;
+    grid-row: 2;
+    height: 200px;
+    width: 200px;
+    background-color: #0a846e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+.footergrid__text{
+    grid-column: 1 / 3 ;
+    grid-row: 3;
+    line-height: 2%;
+   
+}
+
+.footergrid__text--p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  
+}
+
+
+.footergrid__end{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4, 100px);
+    
+   
+   
+   
+   
+}
+
+.lastimg_scale{
+    grid-column: 1 / 3;
+    grid-row: 1 / 5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+
+}
+
+.lastimg_scale--heart{
+    grid-column: 1 / 3;
+    grid-row:  2 ;
+    display: flex;
+    justify-self: center;
+   
+    
+    width: 30%;
+
+}
+
+
+
+
+.lastimg__opacity{
+    grid-column: 1 /3;
+    grid-row: 3;
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+   
+   
+  
+}
+
+
+
+
+
+
+
+.lastimg__opacity2{
+    grid-column: 1 /3;
+    grid-row: 4;
+    background-color: black;
+    opacity: 0.9;
+ 
+    
+}
+
+
+.lastimg__text--P{
+    color: white;
+ 
+    
+
+   
+   
+    
+    
+}
+
+.lastimg__text{
+    position: relative;
+    color: white;
+    top: 45%;
+    left: 39%;
+    font-size: x-small;
+
+   
+}
+.lastimg__mail{
+    position: relative;
+    top: 45%;
+    left: 40%;
+    width: 5%;
+   
+}
+
+.lastimg__text--phone{
+    position: relative;
+    color: white;
+    top: 45%;
+    right: 45%;;
+    font-size: x-small;
+
+   
+}
+
+.lastimg__img--phone{
+    display: flex;
+    justify-content: flex-end;
+   
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
