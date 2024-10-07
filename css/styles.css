@@ -467,16 +467,13 @@ h2, p {
   
 }
 
-.lastimg__textcolor2{
-    color: white;
-    
-}
+
 
 
 .footergrid__end{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(4, 100px);
+    grid-template-rows: repeat(4, 200px);
     
    
    
@@ -517,7 +514,7 @@ h2, p {
     opacity: 0.9;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 
     
    
@@ -526,6 +523,13 @@ h2, p {
   
 }
 
+.lastimg__textcolor2{
+  font-size: larger;
+  font-weight: bold;
+    color: white;
+
+    
+}
 
 
 
@@ -556,6 +560,9 @@ h2, p {
         flex-direction: row;
         justify-content:flex-end;
         align-items: flex-end;
+      
+        
+      
         
         
         
@@ -565,9 +572,12 @@ h2, p {
 
 
 
-.lastimg_text2{
+.lastimg__phone__envelope{
     width: auto;
-    height: 20%;
+    height: 15%;
+    
+   
+   
    
     
     
@@ -576,7 +586,8 @@ h2, p {
 
 .lastimg__textcolor{
     color: white;
-    font-size:x-small;
+    font-size: x-small;
+    
 }
 
 
